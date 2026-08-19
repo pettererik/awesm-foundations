@@ -1,0 +1,13 @@
+# .graphifyignore
+node_modules/
+dist/
+*.generated.py
+.git/
+.github/
+
+# index only project/ and docs/
+*
+!project/
+!project/**
+!docs/
+!docs/**

@@ -1,0 +1,53 @@
+{
+  "extraKnownMarketplaces": {
+    "awesm": {
+      "source": {
+        "source": "github",
+        "repo": "awesm-dev/awesm-claude-harness"
+      },
+      "autoUpdate": true
+    }
+  },
+  "enabledPlugins": {
+    "awesm-harness@awesm": true
+  },
+  "enableAllProjectMcpServers": true,
+  "permissions": {
+    "allow": [
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git show:*)",
+      "Bash(git branch:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git restore:*)",
+      "Bash(git ls-files:*)",
+      "Bash(git rev-list:*)",
+      "Bash(git rev-parse:*)",
+      "Bash(git checkout:*)",
+      "Bash(git fetch:*)",
+      "Bash(git pull:*)",
+      "Bash(git push:*)",
+      "Bash(git clone:*)",
+      "Bash(git reset --hard origin/main)",
+      "Bash(gh auth status)",
+      "Bash(gh auth login)",
+      "Bash(gh api user:*)",
+      "Bash(gh pr create:*)",
+      "Bash(test:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(wc:*)",
+      "Bash(echo:*)",
+      "Bash(mkdir -p:*)",
+      "Bash(chmod +x:*)",
+      "Bash(cp:*)",
+      "Read(~/.claude/plugins/cache/awesm/**)",
+      "Bash(bash evals/run.sh)",
+      "Bash(bash -n:*)"
+    ]
+  }
+}

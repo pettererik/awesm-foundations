@@ -1,7 +1,27 @@
+# OS / editor cruft
 .DS_Store
-__pycache__/
-*.pyc
-.venv/
-node_modules/
+Thumbs.db
+.vscode/
+.idea/
+
+# Env / secrets
 .env
+.env.*
+!.env.example
+
+# Dependency / build output
+node_modules/
+dist/
+build/
+.venv/
+__pycache__/
+
+# Claude Code local-only state (machine-specific)
+.claude/settings.local.json
+
+# Knowledge graph output — regenerate with `graphify update .`
+graphify-out/
+
+# Agent-spesifikt — beholdt fra splitten (GDPR og noekler)
+*.pyc
 *.key
